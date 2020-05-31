@@ -1,0 +1,28 @@
+Objetivo: Criar um pequeno sistema de Cadastro de Cliente;
+
+Banco de Dados Relacional (Pode usar MySQL,MariaDB)
+Tabela: CLIENTE
+Campos: CODIGO     INTEIRO *PK
+        NOME       TEXTO(50)
+        TIPOPESSOA TEXTO(1) [F / J]
+        CPF_CNPJ   TEXTO(14)
+        TELEFONE   TEXTO(14)
+        ENDERECO   TEXTO(80)
+        BAIRRO     TEXTO(50)
+        CIDADE     TEXTO(50)
+        UF         TEXTO(02)
+
+Requisitos:
+ - Criar uma tela de Login, validar dados fixos usuario = virtua, senha = virtu@ (OK)
+ - Criar um menu inicial como Cadastros e um Submenu como Clientes (OK)
+ - Criar uma tela de Cadastro de Clientes capaz de: (OK)
+   - Pesquisar um cliente existente; (OK)
+   - Incluir Novo Cliente; (OK)
+   - Alterar Dados do Cliente; (OK)
+   - Excluir um Cliente; (OK)
+
+  *Back end em PHP, preferencialmente Orientado a Objeto;
+  *Front end em Html, JavaScript com Jquery e CSS com Boostrap;
+  *Comunicação entre Front e Back através de AJAX e não fazer Submit na tela;
+  *Deixar arquivo de configuração de conexão ao Banco de Dados;    
+  *Eu vou ter esse banco de dados local na minha rede e colocar o projeto em um servidor web que temos em Linux;
